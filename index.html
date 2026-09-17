@@ -7,7 +7,7 @@
     
     <!-- Powerful SEO Tags -->
     <meta name="description" content="Pritesh Mohapatra creates 100% handmade hyper-realistic pencil portraits. Recognized as the top portrait artist in Jeypore and across Odisha.">
-    <meta name="keywords" content="Pritesh Mohapatra, No 1 artist in Jeypore, best hyper realistic pencil portrait artist in Odisha, top sketch artist, handmade pencil portrait">
+    <meta name="keywords" content="Pritesh Mohapatra, No 1 artist in Jeypore, best hyper realistic pencil portrait artist in Odisha, top sketch artist, handmade pencil portrait, master photography, creative visionary">
     <meta name="author" content="Pritesh Mohapatra">
 
     <!-- Google Fonts for Bold & Clean Look -->
@@ -38,19 +38,26 @@
 
         /* INTRO SECTION */
         .intro { text-align: center; margin-bottom: 80px; }
-        .intro h2 { font-family: 'Montserrat', sans-serif; font-size: 2.2rem; margin-bottom: 20px; color: #fff; text-transform: uppercase; }
-        .intro p { font-size: 1.2rem; color: #bbb; max-width: 800px; margin: 0 auto; line-height: 1.8; }
+        .intro h2, .section-title { font-family: 'Montserrat', sans-serif; font-size: 2.2rem; margin-bottom: 20px; color: #fff; text-transform: uppercase; }
+        .intro p, .mindset-sub { font-size: 1.2rem; color: #bbb; max-width: 800px; margin: 0 auto 40px auto; line-height: 1.8; text-align: center; }
 
-        /* THE ARTWORKS */
+        /* THE MASTERPIECES */
         .art-card { background: #111; border: 1px solid #222; margin-bottom: 60px; border-radius: 8px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
         .art-card img { width: 100%; height: auto; display: block; border-bottom: 1px solid #222; }
         .art-text { padding: 30px; text-align: center; }
         .art-text h3 { font-family: 'Montserrat', sans-serif; font-size: 1.6rem; color: #d4af37; margin-bottom: 15px; text-transform: uppercase; }
         .art-text p { font-size: 1.05rem; color: #999; line-height: 1.7; }
 
+        /* BEYOND ORDINARY: THE MINDSET (NEW SECTION) */
+        .mindset-section { margin-bottom: 80px; padding-top: 40px; border-top: 1px solid #222; }
+        .mindset-grid { display: grid; grid-template-columns: 1fr; gap: 30px; }
+        .mindset-box { background: #0a0a0a; border: 1px solid #333; padding: 35px; border-radius: 8px; border-left: 4px solid #d4af37; transition: transform 0.3s ease; }
+        .mindset-box:hover { transform: translateY(-5px); border-color: #d4af37; }
+        .mindset-box h4 { font-family: 'Montserrat', sans-serif; font-size: 1.3rem; color: #fff; margin-bottom: 15px; text-transform: uppercase; letter-spacing: 1px; }
+        .mindset-box p { font-size: 1rem; color: #999; line-height: 1.7; }
+
         /* EDUCATION */
         .education { text-align: center; padding: 60px 20px; border-top: 1px solid #222; background: #0a0a0a; }
-        .education h2 { font-family: 'Montserrat', sans-serif; font-size: 2rem; color: #fff; margin-bottom: 40px; text-transform: uppercase; }
         .edu-item { margin-bottom: 25px; }
         .edu-item h4 { font-size: 1.3rem; color: #eee; margin-bottom: 5px; }
         .edu-item p { color: #d4af37; font-weight: 600; font-size: 0.95rem; text-transform: uppercase; }
@@ -60,7 +67,7 @@
         @media (max-width: 600px) {
             h1 { font-size: 2.2rem; }
             .profile-dp { width: 140px; height: 140px; }
-            .intro h2 { font-size: 1.8rem; }
+            .intro h2, .section-title { font-size: 1.8rem; }
         }
     </style>
 </head>
@@ -118,11 +125,36 @@
             </div>
         </div>
 
+        <!-- NEW SECTION: BEYOND ORDINARY: THE MINDSET -->
+        <div class="mindset-section">
+            <h2 class="section-title" style="text-align: center;">Beyond Ordinary: The Visionary Mindset</h2>
+            <p class="mindset-sub">My identity is not limited to just holding a pencil. It is driven by an elite aesthetic sense, a hyper-creative brain, and an absolute rejection of the average.</p>
+            
+            <div class="mindset-grid">
+                
+                <div class="mindset-box">
+                    <h4>The Philosophy: Rejecting the Ordinary</h4>
+                    <p>I despise the ordinary. My mind is wired to create the unique, the bold, and the impossible. Whether it's art, aesthetics, or life, I don't follow trends—I set the benchmark. Being 'good' is a compromise; I operate only on the frequency of absolute perfection.</p>
+                </div>
+
+                <div class="mindset-box">
+                    <h4>The Lens: Photography & Master Editing</h4>
+                    <p>Beyond the canvas, I engineer visual dominance through the camera lens. I capture high-contrast, cinematic photography and elevate it through master-level editing and color grading. I don't just take pictures; I manipulate light and shadow to create visual authority.</p>
+                </div>
+
+                <div class="mindset-box">
+                    <h4>The Aura: A Relentless Creative Force</h4>
+                    <p>I am driven by a hyper-creative obsession. My character is defined by brutal discipline and a hunger to remain the No.1 creative mind in any room. When you look at my work, you are looking directly at my mindset: Unmatched, Unapologetic, and Unstoppable.</p>
+                </div>
+
+            </div>
+        </div>
+
     </div>
 
     <!-- ACADEMIC DETAILS -->
     <div class="education">
-        <h2>Academic & Fine Arts Background</h2>
+        <h2 class="section-title">Academic & Fine Arts Background</h2>
         
         <div class="edu-item">
             <h4>Vikram Deb Autonomous College (VD College), Jeypore</h4>
